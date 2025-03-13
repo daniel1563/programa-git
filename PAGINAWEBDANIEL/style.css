@@ -1,0 +1,99 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos para el encabezado y el menú de navegación */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de "Inicio" */
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.contenedor-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contenido h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.contenido p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
